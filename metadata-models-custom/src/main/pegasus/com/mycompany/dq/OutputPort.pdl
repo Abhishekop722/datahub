@@ -1,0 +1,16 @@
+namespace com.mycompany.dq
+
+record OutputPort {
+  name: string
+  id: string
+  asset: string
+  type: string = "ADLS"
+  format: string
+  natureOfDataset: string
+  intendedPurpose: string
+  classification: string
+  status: string
+  storageAccountName: string
+  containerName: string
+  directoryPath: string
+}

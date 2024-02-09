@@ -1,0 +1,14 @@
+namespace com.mycompany.dq
+
+@Aspect = {
+  "name": "outputPorts",
+  "autoRender": true,
+  "renderSpec": {
+    "displayType": "tabular", // or properties
+    "key": "outputPorts",
+    "displayName": "Output Ports"
+  }
+}
+record OutputPorts {
+  outputPorts: array[OutputPort]
+}
